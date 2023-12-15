@@ -70,4 +70,16 @@
 
   --website-button-font-weight-normal: 400;
   --website-button-font-weight-bold: 500;
+
+  --primary-bg-color: var(--white-100);
+  --primary-typeface-color: var(--black-100);
+}
+
+* {
+    margin: auto;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-typeface-color);
 }
