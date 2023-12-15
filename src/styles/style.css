@@ -7,6 +7,37 @@
   --darker-gray-100: #70727e;
   --black-100: #1c1e23;
 
+  --NumberString-border-radius-none: 0rem;
+  --NumberString-border-radius-xsmall: 0.2rem;
+  --NumberString-border-radius-small: 0.6rem;
+  --NumberString-border-radius-medium: 1.3rem;
+  --NumberString-border-radius-large: 1.9rem;
+  --NumberString-border-radius-xlarge: 2.5rem;
+  --NumberString-border-radius-xxlarge: 4.4rem;
+
+  --NumberString-width-xxxsmall: 0.63rem;
+  --NumberString-width-xxsmall: 1rem;
+  --NumberString-width-xsmall: 1.25rem;
+  --NumberString-width-small: 1.6rem;
+  --NumberString-width-medium: 2rem;
+  --NumberString-width-large: 9.4rem;
+  --NumberString-width-xlarge: 4.3rem;
+  --NumberString-width-xxlarge: 20.63rem;
+  --NumberString-width-xxxlarge: 26.88rem;
+
+  --NumberString-height-xxxsmall: 0.4rem;
+  --NumberString-height-xxsmall: 0.65rem;
+  --NumberString-height-xsmall: 1rem;
+  --NumberString-height-small: 1.25rem;
+  --NumberString-height-medium: 2rem;
+  --NumberString-height-large: 4.3rem;
+  --NumberString-height-xlarge: 9.48rem;
+
+  --NumberString-padding-xsmall: 0.13rem;
+  --NumberString-padding-small: 0.63rem;
+  --NumberString-padding-medium: 0.94rem;
+  --NumberString-padding-large: 1.88rem;
+
   --mobile-display-h1-size-normal: 3.4rem;
   --mobile-display-h1-font-weight-normal: 800;
 
@@ -73,10 +104,26 @@
 
   --primary-bg-color: var(--white-100);
   --primary-typeface-color: var(--black-100);
+
+  --mobile-button-width: var(--NumberString-width-xxxsmall);
+  --mobile-button-height: var(--NumberString-height-xxxsmall);
+  --mobile-button-border-radius: var(--NumberString-border-radius-medium);
+
+  --mobile-checkbox-inside-padding: var(--NumberString-border-radius-xsmall);
+  --mobile-checkbox-width: var(--NumberString-width-xxsmall);
+  --mobile-checkbox-height: var(--NumberString-height-xsmall);
+  --mobile-checkbox-border-radius: var(--NumberString-border-radius-xsmall);
+
+  --mobile-icon-circle-width: var(--NumberString-width-xlarge);
+  --mobile-icon-circle-height: var(--NumberString-height-large);
+
+  --mobile-textfield-container-height: var(--NumberString-height-small);
+  --mobile-textfield-container-width: var(--NumberString-width-xxlarge);
+  --mobile-textfield-container-inside-padding: var(--NumberString-padding-xsmall);
 }
 
 * {
-    margin: auto;
+  margin: auto;
 }
 
 body {
