@@ -1,0 +1,73 @@
+:root {
+  --cerise-red-100: #ff1054;
+  --dark-cerise-red-100: #7a0023;
+  --white-100: #fefefe;
+  --lighter-gray-100: #cacdd5;
+  --gray-100: #a3a6b4;
+  --darker-gray-100: #70727e;
+  --black-100: #1c1e23;
+
+  --mobile-display-h1-size-normal: 3.4rem;
+  --mobile-display-h1-font-weight-normal: 800;
+
+  --mobile-display-h2-size-normal: 1.5rem;
+  --mobile-display-h2-font-weight-normal: 600;
+
+  --mobile-display-h3-normal: 1.3rem;
+  --mobile-display-h3-font-weight-normal: 600;
+
+  --mobile-display-h4-size-normal: 1rem;
+  --mobile-display-h4-font-weight-normal: 600;
+
+  --mobile-paragraph-size-normal: 1rem;
+  --mobile-paragraph-font-weight-normal: 300;
+  --mobile-paragraph-font-weight-semibold: 400;
+
+  --mobile-paragraph-size-small: 1rem;
+  --mobile-paragraph-size-large: 1.5rem;
+
+  --mobile-nav-font-size-normal: 1.125rem;
+  --mobile-nav-font-weight-normal: 300;
+  --mobile-nav-font-weight-validation: 400;
+
+  --mobile-icon-font-size-normal: 0.75rem;
+  --mobile-icon-font-weight-normal: 300;
+
+  --mobile-button-font-size-normal: 1rem;
+  --mobile-button-font-weight-light: 300;
+  --mobile-button-font-weight-normal: 450;
+
+  --website-display-h1-size-normal: 5rem;
+  --website-display-h1-font-weight-normal: 500;
+  --website-display-h1-font-weight-bold: 800;
+
+  --website-display-h2-size-small: 3.125rem;
+  --website-display-h2-size-normal: 3.75rem;
+  --website-display-h2-font-weight-normal: 500;
+  --website-display-h2-font-weight-bold: 600;
+
+  --website-display-h3-normal: 2.25rem;
+  --website-display-h3-font-weight-normal: 600;
+
+  --website-display-h4-size-small: 1.375rem;
+  --website-display-h4-size-normal: 1.56rem;
+  --website-display-h4-font-weight-light: 400;
+  --website-display-h4-font-weight-normal: 600;
+
+  --website-paragraph-size-normal: 1.125rem;
+  --website-paragraph-font-weight-normal: 400;
+  --website-paragraph-size-large: 1.56rem;
+  --website-paragraph-font-weight-bold: 600;
+
+  --website-nav-font-size-normal: 1.125rem;
+  --website-nav-font-weight-normal: 500;
+  --website-nav-font-weight-validation: 600;
+
+  --website-icon-font-size-normal: 1.125rem;
+  --website-icon-font-weight-normal: 400;
+
+  --website-button-font-size-normal: 1.125rem;
+
+  --website-button-font-weight-normal: 400;
+  --website-button-font-weight-bold: 500;
+}
