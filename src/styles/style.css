@@ -23,7 +23,7 @@
   --NumberString-width-large: 9.4rem;
   --NumberString-width-xlarge: 4.3rem;
   --NumberString-width-xxlarge: 20.63rem;
-  --NumberString-width-xxxlarge: 26.88rem;
+  --NumberString-width-xxxlarge: 27rem;
 
   --NumberString-height-xxxsmall: 0.4rem;
   --NumberString-height-xxsmall: 0.65rem;
@@ -32,6 +32,8 @@
   --NumberString-height-medium: 2rem;
   --NumberString-height-large: 4.3rem;
   --NumberString-height-xlarge: 9.48rem;
+  --NumberString-height-xxlarge: 27rem;
+  --NumberString-height-xxxlarge: 50rem;
 
   --NumberString-padding-xsmall: 0.13rem;
   --NumberString-padding-small: 0.63rem;
@@ -54,7 +56,7 @@
   --mobile-paragraph-font-weight-normal: 300;
   --mobile-paragraph-font-weight-semibold: 400;
 
-  --mobile-paragraph-size-small: 1rem;
+  --mobile-paragraph-size-small: 0.8rem;
   --mobile-paragraph-size-large: 1.5rem;
 
   --mobile-nav-font-size-normal: 1.125rem;
@@ -103,7 +105,14 @@
   --website-button-font-weight-bold: 500;
 
   --primary-bg-color: var(--white-100);
+  --secondary-bg-color: var(--cerise-red-100);
+  --tertiary-bg-color: var(--black-100);
   --primary-typeface-color: var(--black-100);
+  --primary-typeface-color-50: var(--lighter-gray-100);
+  --secondary-typeface-color: var(--white-100);
+  --tertiary-typeface-color: var(--cerise-red-100);
+  --primary-stroke-color: var(--black-100);
+  --secondary-stroke-color: var(--gray-100);
 
   --mobile-button-width: var(--NumberString-width-xxxsmall);
   --mobile-button-height: var(--NumberString-height-xxxsmall);

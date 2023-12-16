@@ -1,0 +1,37 @@
+---
+import "../styles/style.css";
+import Icons from "../componments/SoMeIcon.astro"
+---
+
+<section class="SoMe">
+    <h2>Følg med på vores Sociale Medier</h2>
+    <h4>Vi glæder os til at dele hverdagen med jer!</h4>
+    <Icons
+    hashtag="#plasticchange"
+    >
+        </Icons>
+    <Icons
+    hastag="#singleusesucks">
+    </Icons>
+    <Icons
+    hastag="#cleantheplanet">
+    </Icons>
+</section>
+
+<style>
+    section{
+        background-color: var(--secondary-bg-color);
+        color: var(--secondary-typeface-color);
+        width: 27rem;
+        height: 19rem;
+    }
+
+    .SoMe_Icons_flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        padding: 0.625rem;
+    }
+</style>

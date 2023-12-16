@@ -1,0 +1,21 @@
+---
+const { logo } = Astro.props;
+import Button from "../componments/Button.astro";
+import "../styles/style.css";
+---
+
+<section class="nav_grid">
+    <div class="burgermenu"></div>
+   <img src={logo} alt="">
+    <Button variant="primary">Støt</Button>
+</section>
+
+<style>
+    :root {
+        --bg-color: var(--black-100);
+    }
+
+section {
+    background-color: var(--bg-color);
+}
+</style>

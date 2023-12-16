@@ -1,0 +1,34 @@
+---
+const { hashtag } = Astro.props;
+import "../styles/style.css";
+---
+
+<section class="icons_flex">
+    <div class="icon_size"></div>
+    <p>{hashtag}</p>
+</section>
+
+
+<style>
+    :root {
+        --icon-color: var(--white-100);
+    }
+    .icons_flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0.625rem;
+        width: 27rem;
+        gap: 0.625rem;
+        color: var(--icon-color);
+        stroke-width: 2px;
+        stroke: var(--icon-color);
+    }
+
+    .icon_size {
+        width: var(--mobile-icon-circle-width);
+        height: var(--mobile-icon-circle-height);
+
+    }
+
+</style>

@@ -1,0 +1,42 @@
+---
+import "../styles/style.css";
+import "../componments/Button.astro";
+import Button from "../componments/Button.astro";
+
+---
+<section class="parent_flex">
+<h2>Andre støttemuligheder</h2>
+<p>Ved at støtte Plastik Change økonomisk sørger du for at vi kan fortsætte kampen for en mere bæredygtig fremtid. Kun med din støtte kan vi kæmpe for, at politikere tager ansvar for at standse overproduktionen af engangsplastik.</p>
+<Button
+variant="primary">Støt Plastic Change
+</Button>
+<p>Læs mere</p>
+<div class="bg_img"></div>
+
+</section>
+
+
+<style>
+    .bg_img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0rem;
+        width: var(--NumberString-width-xxxlarge);
+        height: var(--NumberString-height-xxlarge);
+        padding: 3.5rem 1.875rem;
+    }
+
+    .parent_flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0rem;
+        border-radius: var(--NumberString-border-radius-small);
+        background-color: var(--tertiary-bg-color);
+        height: 20rem;
+        width: 23rem;
+
+}
+</style>

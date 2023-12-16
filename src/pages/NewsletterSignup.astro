@@ -1,0 +1,35 @@
+---
+import "../styles/style.css";
+import  "../componments/RadioButton.astro";
+import "..componments/Button.astro";
+import "../componments/TextSection.astro";
+import RadioButton from "../componments/RadioButton.astro";
+import SecondaryButton from "../componments/Button.astro";
+import TextSectionInput from "../componments/TextSection.astro";
+---
+
+<section>
+    <h1>15.167</h1>
+    <h2>Har allerede skrevet under på en ny Plastiktraktat - Er den næste dig?</h2>
+    <div>Icon_progressbar</div>
+    <TextSectionInput
+></TextSectionInput>
+    <RadioButton
+    description="Jeg acceptere vilkår og betingelser"></RadioButton>
+     <RadioButton
+    description="Tilmeld mig Plastic Change nyhedsbrev"></RadioButton>
+    <SecondaryButton
+    variant="secondary">Skriv under</SecondaryButton>
+    <p>Læs mere</p>
+</section>
+
+<style>
+    section {
+        background-color: var(--primary-bg-color);
+    }
+
+    h1 {
+        color: var(--tertiary-typeface-color:);
+    }
+
+</style>

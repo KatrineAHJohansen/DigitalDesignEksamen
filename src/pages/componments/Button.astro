@@ -1,0 +1,32 @@
+---
+const { variant } = Astro.props;
+import "../styles/style.css";
+---
+
+<button class={variant}>
+<slot/>
+</button>
+
+<style>
+:root {
+    --primary-bg-color: var(--cerise-red-100);
+    --secondary-bg-color: var(--gray-100);
+}
+
+.primary{
+background-color: var(--primary-bg-color);
+font-size: var(--button-font-size);
+height: var(--mobile-button-height);
+width: var(--mobile-button-width);
+border-radius: var(--mobile-button-border-radius);
+font-family: "Rubik-Regular";
+}
+
+.secondary{
+background-color: var(--secondary-bg-color);
+font-size: var(--button-font-size);
+height: var(--mobile-button-height);
+width: var(--mobile-button-width);
+border-radius: var(--mobile-button-border-radius);
+font-family: "Rubik-Regular";
+}
