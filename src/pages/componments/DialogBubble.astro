@@ -1,0 +1,32 @@
+---
+const { textsection, header } = Astro.props;
+import "../styles/style.css";
+---
+
+<section class="parent_grid">
+    <h3>{header}</h3>
+    <p>{textsection}</p>
+</section>
+
+<style>
+    .parent_grid {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex-shrink: 0rem;
+        gap: 0.93rem;
+        height: 13.8rem;
+        padding: var(--NumberString-border-radius-large) var(--NumberString-border-radius-small);
+        background-color: var(--tertiary-bg-color);
+    }
+
+    h3 {
+        color: var(--secondary-typeface-color);
+    }
+
+    p {
+        color: var(--forth-typeface-color);
+    }
+</style>
+

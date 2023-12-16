@@ -107,12 +107,15 @@
   --primary-bg-color: var(--white-100);
   --secondary-bg-color: var(--cerise-red-100);
   --tertiary-bg-color: var(--black-100);
+  --forth-bg-color: var(--lighter-gray-100);
   --primary-typeface-color: var(--black-100);
   --primary-typeface-color-50: var(--lighter-gray-100);
   --secondary-typeface-color: var(--white-100);
   --tertiary-typeface-color: var(--cerise-red-100);
+  --forth-typeface-color: var(--gray-100);
   --primary-stroke-color: var(--black-100);
   --secondary-stroke-color: var(--gray-100);
+  --tertiary-stroke-color: var(--white-100);
 
   --mobile-button-width: var(--NumberString-width-xxxsmall);
   --mobile-button-height: var(--NumberString-height-xxxsmall);

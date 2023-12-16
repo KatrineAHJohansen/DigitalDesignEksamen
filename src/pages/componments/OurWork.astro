@@ -1,0 +1,38 @@
+---
+const { header } = Astro.props;
+import "../styles/style.css";
+import "../componments/OurWorkIcon.astro";
+import "../componments/Button.astro";
+import Icon from "../componments/OurWorkIcon.astro";
+import Button from "../componments/Button.astro";
+---
+
+<section>
+<h2>{header}</h2>
+<Icon
+iconvariant="plastic"
+header="Loft"
+textsection="Loft på den globale plastikproduktion.">
+</Icon>
+
+<Icon
+iconvariant="foot"
+header="Bæredygtig verden"
+textsection="En bæredygtig plastikproduktion.">
+</Icon>
+
+<Icon
+iconvariant="world"
+header="Grøn omstilling"
+textsection="En retfærdig grøn omstilling som mindsker ulighed.">
+</Icon>
+
+<Icon
+iconvariant="paper"
+header="Jurdisk aftale"
+textsection="En juridisk bindende aftale for alle verdens lande."></Icon>
+
+<Button
+variant="secondary">Læs mere</Button>
+</section>
+

@@ -1,12 +1,13 @@
 ---
+const { textsection, header } = Astro.props;
 import "../styles/style.css";
 import "../componments/Button.astro";
 import Button from "../componments/Button.astro";
 
 ---
 <section class="parent_flex">
-<h2>Andre støttemuligheder</h2>
-<p>Ved at støtte Plastik Change økonomisk sørger du for at vi kan fortsætte kampen for en mere bæredygtig fremtid. Kun med din støtte kan vi kæmpe for, at politikere tager ansvar for at standse overproduktionen af engangsplastik.</p>
+<h2>{header}</h2>
+<p>{textsection}</p>
 <Button
 variant="primary">Støt Plastic Change
 </Button>

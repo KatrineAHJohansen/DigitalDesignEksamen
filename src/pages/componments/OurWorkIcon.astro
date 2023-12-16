@@ -1,0 +1,36 @@
+---
+const { iconvariant, header, textsection } = Astro.props;
+import "../styles/style.css";
+import "../componments/Button.astro";
+import Button from "../componments/Button.astro";
+---
+
+<section class="parent_flex">
+    <div>{iconvariant}</div>
+    <h2>{header}</h2>
+    <p>{textsection}</p>
+    <Button
+    variant="primary">Skriv under</Button>
+</section>
+
+<style>
+.parent_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0rem;
+    gap: 0.93rem;
+    width: 24rem;
+    height: 5.6rem;
+    border-radius: 0.6rem;
+    background-color: var(--forth-bg-color);
+}
+div {
+    width: var(--mobile-icon-circle-width);
+    height: var(--mobile-icon-burger-height);
+    flex-shrink: 0rem;
+    background-color: var(--secondary-bg-color);
+    stroke: 1px solid var(--tertiary-stroke-color);
+}
+</style>
