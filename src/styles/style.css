@@ -15,7 +15,7 @@
   --NumberString-border-radius-xlarge: 2.5rem;
   --NumberString-border-radius-xxlarge: 4.4rem;
 
-  --NumberString-width-xxxsmall: 0.63rem;
+  --NumberString-width-xxxsmall: 0.65rem;
   --NumberString-width-xxsmall: 1rem;
   --NumberString-width-xsmall: 1.25rem;
   --NumberString-width-small: 1.6rem;
@@ -120,13 +120,74 @@
   --mobile-textfield-container-height: var(--NumberString-height-small);
   --mobile-textfield-container-width: var(--NumberString-width-xxlarge);
   --mobile-textfield-container-inside-padding: var(--NumberString-padding-xsmall);
+
+  --mobile-icon-burger-width: var(--NumberString-width-xxxsmall);
+  --mobile-icon-burger-height: var(--NumberString-height-xxsmall);
+
+  --mobile-paragraph-textsection-border-radius-none: var(--NumberString-border-radius-none);
+  --mobile-paragraph-textsection-border-radius: var(--NumberString-border-radius-small);
+}
+
+@font-face {
+  font-family: "Campton-ExtraBold";
+  src: url(/typeface/header/CamptonExtraBold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Campton-SemiBold";
+  src: url(/typeface/header/CamptonSemiBold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Campton-Medium";
+  src: url(/typeface/header/CamptonMedium.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Rubik-Light";
+  src: url(/typeface/paragraph/TitilliumWeb-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Rubik-Regular";
+  src: url(/typeface/paragraph/TitilliumWeb-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Rubik-SemiBold";
+  src: url(/typeface/paragraph/TitilliumWeb-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Rubik-Bold";
+  src: url(/typeface/paragraph/TitilliumWeb-Bold.ttf) format("truetype");
 }
 
 * {
   margin: auto;
+  box-sizing: border-box;
 }
 
 body {
+  margin: 0;
+  padding: 0;
   background-color: var(--primary-bg-color);
   color: var(--primary-typeface-color);
+  font-family: "Rubik-Light";
+  font-size: var(--mobile-paragraph-size-normal);
+}
+
+h1 {
+  font-size: var(--mobile-display-h1-size-normal);
+  font-family: "Campton-ExtraBold";
+}
+
+h2 {
+  font-size: var(--mobile-display-h2-size-normal);
+  font-family: "Campton-Bold";
+}
+
+h3 {
+  font-size: var(--mobile-display-h3-size-normal);
+  font-family: "Campton-Medium";
 }
