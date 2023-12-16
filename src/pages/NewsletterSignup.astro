@@ -3,9 +3,9 @@ import "../styles/style.css";
 import  "../componments/RadioButton.astro";
 import "..componments/Button.astro";
 import "../componments/TextSection.astro";
-import RadioButton from "../componments/RadioButton.astro";
-import SecondaryButton from "../componments/Button.astro";
-import TextSectionInput from "../componments/TextSection.astro";
+import TextSectionInput from "../pages/componments/TextSection.astro";
+import Button from "../pages/componments/Button.astro";
+import Checkbox from "../pages/componments/RadioButton.astro";
 ---
 
 <section>
@@ -14,12 +14,14 @@ import TextSectionInput from "../componments/TextSection.astro";
     <div>Icon_progressbar</div>
     <TextSectionInput
 ></TextSectionInput>
-    <RadioButton
-    description="Jeg acceptere vilkår og betingelser"></RadioButton>
-     <RadioButton
-    description="Tilmeld mig Plastic Change nyhedsbrev"></RadioButton>
-    <SecondaryButton
-    variant="secondary">Skriv under</SecondaryButton>
+<Checkbox
+description="Jeg acceptere vilkår og betingelser"
+></Checkbox>
+<Checkbox
+description="Tilmeld mig Plastic Change nyhedsbrev">
+</Checkbox>
+<Button
+    variant="secondary">Skriv under</Button>
     <p>Læs mere</p>
 </section>
 
