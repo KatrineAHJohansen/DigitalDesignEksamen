@@ -1,11 +1,38 @@
 ---
 const {title, textcontent, subheader} = Astro.props;
-import Icon from 
+import Icon from "./componments/icons.astro";
 ---
 
-<section>
+<section class="parent">
     <h1>{title}</h1>
     <p>{textcontent}</p>
+    <section class="icon_section">
     <h2>{subheader}</h2>
-    <Icon></Icon>
+    <Icon
+    icon1="hej"
+    icon2="hej"
+    icon3="hej"
+    icon4="hej"></Icon>
+    <button>Læs mere</button>
+    </section>
 </section>
+<style>
+    .icon_section {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        height: 15rem;
+    }
+
+    .parent {
+margin-top: 1rem;
+margin-left: 2rem;
+    }
+
+    h2 {
+        margin-bottom: 1rem;
+    }
+
+
+</style>
+

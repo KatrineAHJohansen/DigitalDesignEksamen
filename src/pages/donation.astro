@@ -1,0 +1,25 @@
+---
+const {title, textcontent} = Astro.props;
+---
+<section>
+     <h1>{title}</h1>
+    <p>{textcontent}</p>
+    <section class="button_flex">
+    <button>Støt Plastic Change</button>
+    <button>Læs mere</button>
+    </section>
+</section>
+
+<style>
+    section {
+        display: flex;
+        flex-direction: column;
+        width: 50rem;
+        gap: 1rem;
+    }
+
+    .button_flex {
+        display: flex;
+        flex-direction: column;
+    }
+</style>

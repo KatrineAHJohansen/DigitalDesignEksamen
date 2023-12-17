@@ -1,0 +1,39 @@
+---
+const {icon1, icon2, icon3, icon4} = Astro.props;
+---
+<section>
+    <div class="icon">
+<div>{icon1}</div>
+<p>Loft på den globale plastikproduktion</p>
+</div>
+
+<div class="icon">
+<div>{icon2}</div>
+<p>En bæredygtig plastikproduktion</p>
+</div>
+
+<div class="icon">
+<div>{icon3}</div>
+<p>En retfærdig grøn omstilling som mindsker ulighed</p>
+</div>
+
+<div class="icon">
+<div>{icon4}</div>
+<p>En juridsk bindende aftale for alle verdens lande</p>
+</div>
+</section>
+
+<style>
+    section {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .icon {
+        width: 70px;
+        height: 70px;
+    }
+    p {
+        font-size: x-small;
+    }
+</style>
