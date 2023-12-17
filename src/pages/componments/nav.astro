@@ -1,0 +1,27 @@
+---
+const {logo, nav1, nav2, nav3, nav4} = Astro.props;
+---
+<section>
+    <h1>{logo}</h1>
+    <p>{nav1}</p>
+    <p>{nav2}</p>
+    <p>{nav3}</p>
+    <p>{nav4}</p>
+    </section>
+</section>
+
+
+
+<style>
+    section{
+        background-color: rgba(28, 30, 35, 0.80);
+        color: var(--secondary-typeface-color);
+        display: flex;
+        align-items: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 3rem;
+        padding-right: 2rem;
+    }
+    
+</style>

@@ -1,5 +1,14 @@
 ---
-import "./styles/style.css";
+import "../styles/style.css";
+import "./componments/nav.astro";
+import Nav from "./componments/nav.astro";
+import "./hero.astro";
+import Hero from "./hero.astro";
+import "./sign.astro";
+import Signup from "./sign.astro";
+import "./componments/formsign.astro";
+import Form from "./componments/formsign.astro";
+import "./ourwork.astro";
 ---
 
 <html lang="en">
@@ -13,6 +22,40 @@ import "./styles/style.css";
 	
 	<body>
 		<main>
+			<Nav
+			logo="Plastic Change"
+			nav1="Generelt"
+			nav2="Hvad kan du gøre?"
+			nav3="Støt vores arbejde"
+			nav4="Kontakt"></Nav>
+
+			<Hero
+			CTAhero="Skriv under"
+			title="Kræv en ambitiøs Plastiktrakt nu"
+			subheader="Vi har en historisk chance for at lægge et loft over plastikproduktionen."
+			secondary="læs mere"
+			primary="Skriv under">
+			</Hero>
+
+			<section class="form">
+			 <Signup
+			 title="Plastikforurening er et grænseløst problem, der påvirker os alle"
+			 textcontent="Plastic Change går forrest i kampen mod forurening af engangplastik som hver dag truer vores Jord.  Hos Plastic Change ønsker at skabe rammerne for en renere fremtid både globalt og internationalt."
+			 ></Signup>
+
+			 <Form
+			 numbers="15.167"
+			 textcontent="Har allerede skrevet under på en ny Plastiktraktat - Er den næste dig?"></Form>
+			 </section>
+
 		</main>
 	</body>
 </html>
+
+
+<style>
+	.form{
+		background-color: black;
+		height: 35rem;
+	}
+</style>

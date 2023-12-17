@@ -1,0 +1,47 @@
+---
+const {CTAhero, title, subheader, secondary, primary} = Astro.props;
+---
+<section>
+    <h4 class="redCTA">{CTAhero}</h4>
+    <h3>{title}</h3>
+    <h4>{subheader}</h4>
+    <div>
+    <button>{secondary}</button>
+    <button class="primary">{primary}</button>
+    </div>
+</section>
+
+<style>
+    section {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        padding: 1rem;
+        background-color: rgba(28, 30, 35, 0.80);
+        color: var(--secondary-typeface-color);
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .redCTA {
+        color: var(--tertiary-typeface-color);
+        font-weight: bold;
+    }
+
+    h4 {
+        color: var(--lighter-gray-100)
+    }
+
+    .primary {
+        background-color: var(--cerise-red-100);
+        color: white;
+    }
+
+    div {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        padding-top: 1rem;
+        margin-inline: 1rem;
+    }
+</style>
