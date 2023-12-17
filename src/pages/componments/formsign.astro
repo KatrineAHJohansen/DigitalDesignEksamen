@@ -1,7 +1,5 @@
 ---
-const {numbers, textcontent} = Astro.props;
-import "./radiobutton.astro";
-import Radiobutton from "./radiobutton.astro";
+const {numbers, textcontent, subheader} = Astro.props;
 import "./button.astro";
 import Button from "./button.astro";
 ---
@@ -9,8 +7,9 @@ import Button from "./button.astro";
 <section>
     <h1>{numbers}</h1>
     <p>{textcontent}</p>
-    <div>Hej jeg er en lang dims.</div>
-    <Radiobutton></Radiobutton>
+    <button class="donation"></button>
+    <h4>{subheader}</h4>
+    <button class="input"></button>
     <div class="button-flex"><Button></Button></div>
        
 </section>
@@ -35,6 +34,11 @@ h1{
     padding-top: 1rem;
 }
 
+h4 {
+    margin-top: 0.3rem;
+    margin-left: 2rem;
+}
+
 p {
     font-size: 0.9rem;
     font-family: "Rubik-Regular";
@@ -44,5 +48,22 @@ p {
     display: flex;
     flex-direction: row;
     gap: 1rem;
+}
+
+.donation {
+    background-color: var(--cerise-red-100);
+    border-style: none;
+    border-radius: 3rem;
+    width: 26rem;
+    height: 0.8rem;
+}
+
+.input {
+    width: 26rem;
+    height: 1.2rem;
+    border-radius: 0.2rem;
+    stroke: 1px solid var(--black-100);
+    border-style: none;
+    background-color: var(--lighter-gray-100); 
 }
 </style>

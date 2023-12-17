@@ -12,6 +12,8 @@ import "./ourwork.astro";
 import Traktat from "./ourwork.astro";
 import "./donation.astro";
 import Donation from "./donation.astro";
+import "./componments/footer.astro";
+import Footer from "./componments/footer.astro";
 ---
 
 <html lang="en">
@@ -46,7 +48,8 @@ import Donation from "./donation.astro";
 
 			 <Form
 			 numbers="15.167"
-			 textcontent="Har allerede skrevet under på en ny Plastiktraktat - Er den næste dig?"></Form>
+			 textcontent="Har allerede skrevet under på en ny Plastiktraktat - Er den næste dig?"
+			 subheader="E-mail"></Form>
 			 </section>
 
 			 <Traktat
@@ -57,7 +60,10 @@ import Donation from "./donation.astro";
 			 <Donation
 			 title="Andre støttemuligheder"
 			 textcontent="Ved at støtte Plastik Change økonomisk sørger du for at vi kan fortsætte kampen for en mere bæredygtig fremtid. Kun med din støtte kan vi kæmpe for, at politikere tager ansvar for at standse overproduktionen af engangsplastik."></Donation>
-		</main>
+		<Footer>
+
+		</Footer>
+	</main>
 	</body>
 </html>
 
