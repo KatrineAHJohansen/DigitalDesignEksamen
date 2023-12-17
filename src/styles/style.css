@@ -19,6 +19,12 @@
   --primary-stroke-color: var(--black-100);
   --secondary-stroke-color: var(--gray-100);
   --tertiary-stroke-color: var(--white-100);
+
+  --subheader-h1-size-regular: 1.8rem;
+  --subheader-h2-size-regular: 1.5rem;
+  --subheader-h3-size-regular: 1.8rem;
+  --navigation-font-size: 0.8rem;
+  --paragraph-text-regular: 1.2rem;
 }
 
 @font-face {
@@ -67,20 +73,24 @@ body {
   background-color: var(--primary-bg-color);
   color: var(--primary-typeface-color);
   font-family: "Rubik-Light";
-
 }
 
 h1 {
-  font-size: var(--mobile-display-h1-size-normal);
-  font-family: "Campton-ExtraBold";
+  font-size: var(--subheader-h1-size-regular);
+  font-family: "Campton-SemiBold";
+  font-size: 1.8rem;
 }
 
 h2 {
-  font-size: var(--mobile-display-h2-size-normal);
-  font-family: "Campton-Bold";
+  font-size: var(--subheader-h2-size-regular);
+  font-family: "Campton-Medium";
 }
 
 h3 {
-  font-size: var(--mobile-display-h3-size-normal);
+  font-size: var(--subheader-h3-size-regular);
   font-family: "Campton-Medium";
+}
+
+p {
+  font-size: var(--paragraph-text-regular);
 }

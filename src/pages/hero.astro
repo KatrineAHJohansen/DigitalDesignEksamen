@@ -1,7 +1,8 @@
 ---
 const {CTAhero, title, subheader, secondary, primary} = Astro.props;
 ---
-<section>
+<section class="parent">
+<section class="child">
     <h4 class="redCTA">{CTAhero}</h4>
     <h3>{title}</h3>
     <h4>{subheader}</h4>
@@ -10,14 +11,22 @@ const {CTAhero, title, subheader, secondary, primary} = Astro.props;
     <button class="primary">{primary}</button>
     </div>
 </section>
-
+</section>
 <style>
-    section {
+
+    .parent{
+        width: 90rem;
+        height: 15rem;
+        background-color: rgb(24, 24, 25);
+    }
+
+    .child {
         margin-top: 1rem;
         margin-left: 1rem;
         padding: 1rem;
         background-color: rgba(28, 30, 35, 0.80);
         color: var(--secondary-typeface-color);
+        width: 25rem;
         display: inline-flex;
         flex-direction: column;
         align-items: flex-start;

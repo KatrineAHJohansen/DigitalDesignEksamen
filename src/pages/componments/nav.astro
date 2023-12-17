@@ -2,7 +2,7 @@
 const {logo, nav1, nav2, nav3, nav4} = Astro.props;
 ---
 <section>
-    <h1>{logo}</h1>
+   <img src="./svg/logo.svg"/>
     <p>{nav1}</p>
     <p>{nav2}</p>
     <p>{nav3}</p>
@@ -13,6 +13,10 @@ const {logo, nav1, nav2, nav3, nav4} = Astro.props;
 
 
 <style>
+    img {
+        width: 6rem;
+        height: 4rem;
+    }
     section{
         background-color: rgba(28, 30, 35, 0.80);
         color: var(--secondary-typeface-color);
@@ -20,8 +24,12 @@ const {logo, nav1, nav2, nav3, nav4} = Astro.props;
         align-items: center;
         padding-top: 1rem;
         padding-bottom: 1rem;
-        padding-left: 3rem;
-        padding-right: 2rem;
+        padding-right: 10rem;
+    }
+
+    p {
+        font-size: var(--navigation-font-size);
+
     }
     
 </style>

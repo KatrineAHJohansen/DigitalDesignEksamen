@@ -7,17 +7,13 @@ import Radiobutton from "./radiobutton.astro";
 <section>
     <h1>{numbers}</h1>
     <p>{textcontent}</p>
+    <div>Hej jeg er en lang dims.</div>
     <Radiobutton></Radiobutton>
-    <button>Godkend</button>
+       <button>Skriv under</button>
 	<button>Læs mere</button>
 </section>
 
 <style>
-button {
-display: flex;
-flex-direction: column;
-}
-
 section {
     display: flex;
     flex-direction: column;
@@ -25,13 +21,20 @@ section {
     justify-content: flex-start;
     background-color: white;
     width: 30rem;
-    height: 12rem;
+    height: 17rem;
     border-radius: 1rem;
     margin-top: 3rem;
 }
 
 h1{
-    color: red;
+    color: var(--cerise-red-100);
     margin-top: 1rem;
+    font-size: 3.4rem;
+    font-family: "Campton-ExtraBold";
+}
+
+p {
+    font-size: 0.9rem;
+    font-family: "Rubik-Regular";
 }
 </style>

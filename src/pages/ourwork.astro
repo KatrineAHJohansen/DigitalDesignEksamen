@@ -8,11 +8,8 @@ import Icon from "./componments/icons.astro";
     <p>{textcontent}</p>
     <section class="icon_section">
     <h2>{subheader}</h2>
-    <Icon
-    icon1="hej"
-    icon2="hej"
-    icon3="hej"
-    icon4="hej"></Icon>
+    <Icon>
+    </Icon>
     <button>Læs mere</button>
     </section>
 </section>
@@ -21,16 +18,20 @@ import Icon from "./componments/icons.astro";
         display: flex;
         flex-direction: column;
         margin-top: 2rem;
-        height: 15rem;
+        height: 17rem;
     }
 
     .parent {
-margin-top: 1rem;
-margin-left: 2rem;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    width: 61rem;
     }
 
+
+
     h2 {
-        margin-bottom: 1rem;
+       font-size: var(--subheader-h2-size-regular);
+        margin-bottom: 0.4rem;
     }
 
 
