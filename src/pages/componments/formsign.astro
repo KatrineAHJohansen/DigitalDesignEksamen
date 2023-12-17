@@ -2,6 +2,8 @@
 const {numbers, textcontent} = Astro.props;
 import "./radiobutton.astro";
 import Radiobutton from "./radiobutton.astro";
+import "./button.astro";
+import Button from "./button.astro";
 ---
 
 <section>
@@ -9,8 +11,8 @@ import Radiobutton from "./radiobutton.astro";
     <p>{textcontent}</p>
     <div>Hej jeg er en lang dims.</div>
     <Radiobutton></Radiobutton>
-       <button>Skriv under</button>
-	<button>Læs mere</button>
+    <div class="button-flex"><Button></Button></div>
+       
 </section>
 
 <style>
@@ -36,5 +38,11 @@ h1{
 p {
     font-size: 0.9rem;
     font-family: "Rubik-Regular";
+}
+
+.button-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 1;
 }
 </style>

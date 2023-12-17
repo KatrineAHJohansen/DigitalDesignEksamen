@@ -1,25 +1,46 @@
 ---
 const {title, textcontent} = Astro.props;
+import "./componments/button.astro";
+import Button from "./componments/button.astro";
 ---
 <section>
      <h1>{title}</h1>
-    <p>{textcontent}</p>
-    <section class="button_flex">
-    <button>Støt Plastic Change</button>
-    <button>Læs mere</button>
-    </section>
+    <p class="padding">{textcontent}</p>
+    <div class="button-flex">
+    <Button>
+    </Button>
+    </div>
 </section>
 
 <style>
     section {
         display: flex;
         flex-direction: column;
-        width: 50rem;
+        width: 35rem;
+        height: 21rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
         gap: 1rem;
+        background-color:rgba(28, 30, 35, 0.80);
+        color: var(--primary-typeface-color-50);
+        padding-top: 0.2rem;
+        border-radius: 1.5rem;
     }
 
-    .button_flex {
+    h1 {
+        padding-top: 1.5rem;
+        color: var(--secondary-typeface-color);
+    }
+
+    .padding {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .button-flex {
         display: flex;
-        flex-direction: column;
+    flex-direction: row;
+    gap: 1;
+    padding-bottom: 2rem;
     }
 </style>

@@ -1,29 +1,37 @@
 ---
 const {title, textcontent, subheader} = Astro.props;
 import Icon from "./componments/icons.astro";
+import "./componments/button.astro";
+import Button from "./componments/button.astro";
 ---
 
 <section class="parent">
     <h1>{title}</h1>
+    <div class="border-box">
     <p>{textcontent}</p>
+    </div>
     <section class="icon_section">
     <h2>{subheader}</h2>
     <Icon>
     </Icon>
-    <button>Læs mere</button>
+    <div class="button-flex"><Button></Button></div>
     </section>
 </section>
 <style>
     .icon_section {
         display: flex;
         flex-direction: column;
-        margin-top: 2rem;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4rem;
+        margin-right: auto;
+        margin-left: auto;
         height: 17rem;
     }
 
     .parent {
     margin-top: 3rem;
-    margin-left: 5rem;
+    margin-left: auto;
     width: 61rem;
     }
 
@@ -31,9 +39,13 @@ import Icon from "./componments/icons.astro";
 
     h2 {
        font-size: var(--subheader-h2-size-regular);
-        margin-bottom: 0.4rem;
+        margin-bottom: 0.2rem;
     }
 
-
+.button-flex {
+        display: flex;
+    flex-direction: row;
+    gap: 1;
+}
 </style>
 

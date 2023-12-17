@@ -1,5 +1,7 @@
 ---
 const {CTAhero, title, subheader, secondary, primary} = Astro.props;
+import "./componments/button.astro";
+import Button from "./componments/button.astro";
 ---
 <section class="parent">
 <section class="child">
@@ -7,8 +9,9 @@ const {CTAhero, title, subheader, secondary, primary} = Astro.props;
     <h3>{title}</h3>
     <h4>{subheader}</h4>
     <div>
-    <button>{secondary}</button>
-    <button class="primary">{primary}</button>
+    <Button variant={secondary}
+    variant={primary}
+    ></Button>
     </div>
 </section>
 </section>
