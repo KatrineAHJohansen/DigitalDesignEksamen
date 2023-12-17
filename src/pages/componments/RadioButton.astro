@@ -1,11 +1,10 @@
 ---
-const { description, Checkbox} = Astro.props;
+const { description, checkbox} = Astro.props;
 import "../styles/style.css";
 ---
 <div class="container_flex">
-<button class="radio_button">{Checkbox}</button>
+<button class="radio_button">{checkbox}</button>
 <p>{description}</p>
-<slot/>
 </div>
 
 
