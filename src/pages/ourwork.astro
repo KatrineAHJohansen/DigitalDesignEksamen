@@ -7,9 +7,7 @@ import Button from "./componments/button.astro";
 
 <section class="parent">
     <h1>{title}</h1>
-    <div class="border-box">
     <p>{textcontent}</p>
-    </div>
     <section class="icon_section">
     <h2>{subheader}</h2>
     <Icon>
@@ -31,21 +29,21 @@ import Button from "./componments/button.astro";
 
     .parent {
     margin-top: 3rem;
-    margin-left: auto;
-    width: 61rem;
+    margin-left: 5rem;
+    width:auto;
     }
 
 
 
     h2 {
        font-size: var(--subheader-h2-size-regular);
-        margin-bottom: 0.2rem;
+    margin-bottom: 0.2rem;
     }
 
 .button-flex {
         display: flex;
     flex-direction: row;
-    gap: 1;
+    gap: 2rem;
 }
 </style>
 
