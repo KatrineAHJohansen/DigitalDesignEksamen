@@ -20,50 +20,51 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    background-color: white;
-    width: 30rem;
-    height: 17rem;
-    border-radius: 1rem;
-    margin-top: 2rem;
+    background-color: var(--primary-bg-color);
+    width: var(--form-section-width);
+    height: var(--form-section-height);
+    border-radius: var(--form-border-radius);
+    margin-top: var(--form-margin-top);
 }
 
 h1{
     color: var(--cerise-red-100);
     font-size: 3.4rem;
     font-family: "Campton-ExtraBold";
-    padding-top: 1rem;
+    padding-top: var(--h1-padding-top);
 }
 
 h4 {
-    margin-top: 0.3rem;
-    margin-left: 2rem;
+    margin-top: var(--h4-margin-top);
+    margin-left: var(--h4-margin-left);
 }
 
 p {
-    font-size: 0.9rem;
+    font-size: var(--paragraph-text-small);
     font-family: "Rubik-Regular";
+    color: var(--primary-typeface-color);
 }
 
 .button-flex {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: var(--button-gap-small);
 }
 
 .donation {
     background-color: var(--cerise-red-100);
     border-style: none;
-    border-radius: 3rem;
-    width: 26rem;
-    height: 0.8rem;
+    border-radius: var(--Donation-line-border);
+    width: var(--Donation-line-width);
+    height: var(--Donation-line-height);
 }
 
 .input {
-    width: 26rem;
-    height: 1.2rem;
-    border-radius: 0.2rem;
-    stroke: 1px solid var(--black-100);
+    width: var(--Input-box-width);
+    height: var(--Input-box-height);
+    border-radius: var(--Input-box-border-radius);
+    stroke: var(--Input-box-stroke);
     border-style: none;
-    background-color: var(--lighter-gray-100); 
+    background-color: var(--forth-bg-color); 
 }
 </style>

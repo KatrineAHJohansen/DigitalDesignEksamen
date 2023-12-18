@@ -14,17 +14,17 @@ const {logo, nav1, nav2, nav3, nav4} = Astro.props;
 
 <style>
     img {
-        width: 6rem;
-        height: 2.5rem;
+        width: var(--Nav-logo-width);
+        height: var(--Nav-logo-height);
     }
     section{
         background-color: rgba(28, 30, 35, 0.80);
         color: var(--secondary-typeface-color);
         display: flex;
         align-items: center;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        padding-right: 10rem;
+        padding-top: var(--Section-padding-top:);
+        padding-bottom: var(--Section-padding-bottom);
+        padding-right: var(--Section-padding-right);
     }
 
     p {

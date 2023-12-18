@@ -21,10 +21,94 @@
   --tertiary-stroke-color: var(--white-100);
 
   --subheader-h1-size-regular: 1.8rem;
+  --h1-margin-top: 0.3rem;
+  --h1-margin-left: 2rem;
+  --h1-donation-padding-top: 2rem;
   --subheader-h2-size-regular: 1.5rem;
+  --h2-margin-left: 0.2rem;
   --subheader-h3-size-regular: 1.8rem;
   --navigation-font-size: 0.8rem;
   --paragraph-text-regular: 1.2rem;
+  --paragraph-text-small: 0.9rem;
+  --paragraph-icon-text: 0.9rem;
+
+  --button-width: 5.3rem;
+  --button-height: 2.2rem;
+  --button-border: 1.25rem;
+  --button-gap-small: 1rem;
+  --button-gap-medium: 2rem;
+  --button-padding-bottom: 2rem;
+  --button-margin-bottom: 1rem;
+  --button-stroke: 2px solid var(--lighter-gray-100);
+
+  --form-section-width: 30rem;
+  --form-section-height: 17rem;
+  --form-border-radius: 1rem;
+  --form-margin-top: 2rem;
+
+  --h1-padding-top: 1rem;
+  --h4-margin-top: 0.3rem;
+  --h4-margin-left: 2rem;
+
+  --Donation-line-width: 26rem;
+  --Donation-line-height: 0.8rem;
+  --Donation-line-border: 3rem;
+
+  --Input-box-width: 26rem;
+  --Input-box-height: 1.2rem;
+  --Input-box-border-radius: 0.2rem;
+  --Input-box-stroke: 1px solid var(--black-100);
+
+  --Icon-circle-width: 35rem;
+  --Icon-circle-height: 9rem;
+
+  --Nav-logo-width: 6rem;
+  --Nav-logo-height: 2.5rem;
+
+  --Padding-Left: 3rem;
+  --Padding-Right: 3rem;
+
+  --Hero-child-margin-top: 2rem;
+  --Hero-child-margin-left: 1rem;
+  --Hero-child-margin-bottom: 2rem;
+  --Hero-child-padding: 1rem;
+  --Hero-child-width: var(--width-small);
+
+  --Div-gap: 1rem;
+  --Div-Padding-top: 1rem;
+  --Div-margin-inline-none: 0rem;
+
+  --Index-height: 35rem;
+
+  --Icon-section-margin-top: 4rem;
+  --Icon-section-margin-right: auto;
+  --Icon-section-margin-left: auto;
+  --Icon-section-height: 17rem;
+
+  --Icon-section-parent-margin-top: 3rem;
+  --Icon-section-parent-margin-left: 2rem;
+
+  --Section-padding-top: 1rem;
+  --Section-padding-bottom: 1rem;
+  --Section-padding-right: 10rem;
+
+
+
+  --Section-border-radius: 1rem;
+  --Section-margin-top: 2rem;
+  --Section-height: 21rem;
+  --Section-margin-top: 3rem;
+  --Section-gap: 1rem;
+  --Section-padding-top: 0.2rem;
+  --Section-border-radius: 1.5rem;
+  --Section-width: 50rem;
+  --Section-height: 12rem;
+  --Section-margin-top: 2rem;
+  --Section-margin-left: 1rem;
+  --Section-padding-left: 1rem;
+  --Section-padding-right: 2rem;
+  --Section-padding-bottom: 3rem;
+  --Section-padding-top: 1rem;
 }
 
 @font-face {
@@ -93,4 +177,5 @@ h3 {
 
 p {
   font-size: var(--paragraph-text-regular);
+  font-family: "Rubik-Light";
 }

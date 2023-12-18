@@ -1,0 +1,43 @@
+---
+const {title, textcontent, icon} = Astro.props;
+---
+
+<section>
+    <h1>{title}</h1>
+    <p>{textcontent}</p>
+    <div class="icon_flex"></div>
+    <div>
+    <div>{icon}</div>
+    <p>singleusesucks</p>
+        </div>
+     <div>
+    <div>{icon}</div>
+    <p>singleusesucks</p>
+        </div>
+           <div>
+    <div>{icon}</div>
+    <p>singleusesucks</p>
+        </div>
+    </div>
+   </section>
+
+<style>
+    section {
+        height: 20rem;
+        background-color: var(--cerise-red-100);
+        color: white;
+    }
+    .icon_flex {
+       display: flex;
+        align-items: center;
+    }
+
+    h1 {
+        padding-top: 1.5rem;
+        padding-left: 3rem;
+    }
+
+    p {
+        padding-left: 3rem;
+    }
+</style>
