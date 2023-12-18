@@ -26,13 +26,13 @@ import Button from "./componments/button.astro";
     }
 
     .child {
-        margin-top: 2rem;
-        margin-left: 1rem;
-        margin-bottom: 2rem;
-        padding: 1rem;
+        margin-top: var(--Section-margin-top);
+        margin-left: var(--Section-margin-left);
+        margin-bottom: var(--Section-margin-bottom-small);
+        padding: var(--Section-padding);
         background-color: rgba(28, 30, 35, 0.80);
         color: var(--secondary-typeface-color);
-        width: 25rem;
+        width: var(--Section-width-small);
         display: inline-flex;
         flex-direction: column;
         align-items: flex-start;
@@ -51,14 +51,14 @@ import Button from "./componments/button.astro";
 
     .primary {
         background-color: var(--cerise-red-100);
-        color: white;
+        color: var(--secondary-typeface-color);
     }
 
     div {
         display: flex;
         flex-direction: row;
-        gap: 1rem;
-        padding-top: 1rem;
-        margin-inline: 0rem;
+        gap: var(--Div-gap);
+        padding-top: var(--Div-Padding-top);
+        margin-inline: var(--Div-margin-inline-none);
     }
 </style>

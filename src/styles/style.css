@@ -68,16 +68,11 @@
   --Padding-Left: 3rem;
   --Padding-Right: 3rem;
 
-  --Hero-child-margin-top: 2rem;
-  --Hero-child-margin-left: 1rem;
-  --Hero-child-margin-bottom: 2rem;
-  --Hero-child-padding: 1rem;
-  --Hero-child-width: var(--width-small);
-
   --Div-gap: 1rem;
   --Div-Padding-top: 1rem;
   --Div-margin-inline-none: 0rem;
 
+  --Height-small: 17rem;
   --Index-height: 35rem;
 
   --Icon-section-margin-top: 4rem;
@@ -88,27 +83,25 @@
   --Icon-section-parent-margin-top: 3rem;
   --Icon-section-parent-margin-left: 2rem;
 
+  --Section-padding: 1rem;
   --Section-padding-top: 1rem;
+  --Section-padding-top-medium: 2rem;
   --Section-padding-bottom: 1rem;
+  --Section-padding-bottom-large: 3rem;
+  --Section-padding-right-small: 2rem;
   --Section-padding-right: 10rem;
-
-
-
-  --Section-border-radius: 1rem;
-  --Section-margin-top: 2rem;
+  --Section-left: 1rem;
+  --Section-width-large: 50rem;
+  --Section-width-small: 25rem;
+  --Section-width: 35rem;
+  --Section-height-small: 12rem;
   --Section-height: 21rem;
-  --Section-margin-top: 3rem;
   --Section-gap: 1rem;
-  --Section-padding-top: 0.2rem;
   --Section-border-radius: 1.5rem;
-  --Section-width: 50rem;
-  --Section-height: 12rem;
-  --Section-margin-top: 2rem;
   --Section-margin-left: 1rem;
-  --Section-padding-left: 1rem;
-  --Section-padding-right: 2rem;
-  --Section-padding-bottom: 3rem;
-  --Section-padding-top: 1rem;
+  --Section-margin-top: 3rem;
+  --Section-margin-bottom-small: 2rem;
+  --Section-margin-bottom: 3rem;
 }
 
 @font-face {

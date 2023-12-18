@@ -18,31 +18,29 @@ import Button from "./componments/button.astro";
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 35rem;
-        height: 21rem;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        gap: 1rem;
+        width: var(--Section-width);
+        margin-bottom: var(--Section-margin-bottom);
+        gap: var(--Section-gap);
         background-color:rgba(28, 30, 35, 0.80);
         color: var(--primary-typeface-color-50);
-        padding-top: 0.2rem;
-        border-radius: 1.5rem;
+        padding-top: var(--Section-padding-top-medium);
+        border-radius: var(--Section-border-radius);
     }
 
     h1 {
-        padding-top: 1.5rem;
+        padding-top: var(--h1-padding-top);
         color: var(--secondary-typeface-color);
     }
 
     .padding {
-        padding-left: 3rem;
-        padding-right: 3rem;
+        padding-left: var(--Padding-Left);
+        padding-right: var(--Padding-Right);
     }
 
     .button-flex {
         display: flex;
     flex-direction: row;
-    padding-bottom: 2rem;
-    gap: 2rem;
+    padding-bottom: var(--button-padding-bottom);
+    gap: var(--button-gap-small);
     }
 </style>
